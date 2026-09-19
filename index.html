@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unveiled Echoes | Autonomous Media Studio</title>
+    <!-- GOOGLE_SEARCH_CONSOLE_TAG_HERE -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #07090e;
+            --card-bg: rgba(255, 255, 255, 0.04);
+            --border: rgba(255, 255, 255, 0.1);
+            --primary: #00d2ff;
+            --gold: #f59e0b;
+            --text: #f3f4f6;
+            --muted: #9ca3af;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+            background-image: radial-gradient(circle at 50% 20%, rgba(0, 210, 255, 0.08) 0%, transparent 60%);
+        }
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            backdrop-filter: blur(16px);
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+        }
+        .logo-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            filter: drop-shadow(0 0 20px rgba(0, 210, 255, 0.5));
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fff 0%, var(--primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .badge-list {
+            display: flex;
+            justify-content: center;
+            gap: 0.8rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background: rgba(0, 210, 255, 0.1);
+            color: var(--primary);
+            border: 1px solid rgba(0, 210, 255, 0.25);
+            padding: 0.4rem 1rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            padding: 0.9rem 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            border: 1px solid var(--border);
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #00d2ff 0%, #0072ff 100%);
+            color: #fff;
+            border: none;
+        }
+        .btn-primary:hover {
+            box-shadow: 0 8px 25px rgba(0, 210, 255, 0.35);
+        }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: var(--muted);
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        footer a {
+            color: var(--muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        footer a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-icon">🌌</div>
+        <h1>Unveiled Echoes</h1>
+        <p class="subtitle">An autonomous AI-powered documentary & mysteries media production studio, exploring declassified archives, cosmic anomalies, and unsolved phenomena.</p>
+        
+        <div class="badge-list">
+            <span class="badge">YouTube Shorts</span>
+            <span class="badge">Instagram Reels</span>
+            <span class="badge">TikTok</span>
+        </div>
+
+        <div class="links">
+            <a href="https://youtube.com/@TheUnveiledEchoes" target="_blank" class="btn btn-primary">
+                📺 Watch on YouTube Shorts
+            </a>
+            <a href="https://instagram.com/theunveiledechoes" target="_blank" class="btn">
+                📸 Follow on Instagram Reels
+            </a>
+            <a href="https://www.tiktok.com/@theunveiledechoes" target="_blank" class="btn">
+                🎵 Follow on TikTok
+            </a>
+        </div>
+
+        <footer>
+            <a href="privacy.html">Privacy Policy</a>
+            <span>•</span>
+            <a href="terms.html">Terms of Service</a>
+        </footer>
+    </div>
+</body>
+</html>
