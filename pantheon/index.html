@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantheon of the Forgotten | Ancient Dark Mythology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #07090e;
+            --card-bg: rgba(18, 22, 34, 0.7);
+            --border: rgba(212, 175, 55, 0.25);
+            --gold: #FFD700;
+            --cyan: #00D2FF;
+            --text: #f3f4f6;
+            --muted: #9ca3af;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+            background-image: radial-gradient(circle at top center, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+        }
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 3.5rem 2.5rem;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+            backdrop-filter: blur(16px);
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            background: rgba(212, 175, 55, 0.12);
+            border: 1px solid var(--gold);
+            border-radius: 50px;
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.8rem;
+            font-weight: 900;
+            letter-spacing: 3px;
+            color: #fff;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+        }
+        p.subtitle {
+            font-size: 1.15rem;
+            color: var(--muted);
+            max-width: 620px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+        .btn {
+            padding: 0.85rem 1.8rem;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #d4af37 0%, #aa8010 100%);
+            color: #000;
+            font-weight: 700;
+        }
+        .btn-primary:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            transform: translateY(-2px);
+        }
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 1.8rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: var(--muted);
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: var(--gold);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">ORIGINAL SERIALIZED LORE</div>
+        <h1>PANTHEON OF THE FORGOTTEN</h1>
+        <p class="subtitle">
+            An episodic dark mythology and ancient cosmic horror series. Uncovering forbidden gods, buried pantheons, and ancient eternity before the dawn of recorded history.
+        </p>
+        <div class="btn-group">
+            <a href="https://www.youtube.com/@pantheonoftheforgotten" target="_blank" class="btn btn-primary">
+                📺 Watch on YouTube Shorts
+            </a>
+        </div>
+        <footer>
+            <a href="privacy.html">Privacy Policy</a>
+            <span>•</span>
+            <a href="terms.html">Terms of Service</a>
+        </footer>
+    </div>
+</body>
+</html>
